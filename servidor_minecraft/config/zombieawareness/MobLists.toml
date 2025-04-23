@@ -1,0 +1,8 @@
+
+#General mod settings
+[general]
+	#Mobs enhanced by zombie awareness
+	enhancedMobs = ["minecraft:zombie", "minecraft:husk", "minecraft:creeper", "minecraft:skeleton", "minecraft:stray", "minecraft:witch", "minecraft:zombie_villager"]
+	#This is a list to use as a reference for your modpack for mobs you might want to enhance, if these mobs also walk on the ground, they will probably work if you add them to enhancedMobs
+	enhanceableMobs = ["minecraft:endermite", "minecraft:cave_spider", "minecraft:zombified_piglin", "minecraft:shulker", "minecraft:spider", "iceandfire:troll", "iceandfire:dread_lich", "minecraft:elder_guardian", "minecraft:blaze", "minecraft:drowned", "minecraft:ravager", "minecraft:illusioner", "minecraft:pillager", "minecraft:stray", "mutantmonsters:mutant_enderman", "minecraft:ender_dragon", "minecraft:witch", "mutantmonsters:mutant_skeleton", "minecraft:husk", "mutantmonsters:mutant_zombie", "minecraft:zoglin", "minecraft:evoker", "iceandfire:dread_horse", "minecraft:wither_skeleton", "minecraft:piglin_brute", "minecraft:silverfish", "minecraft:skeleton", "minecraft:piglin", "iceandfire:dread_ghoul", "minecraft:enderman", "iceandfire:dread_beast", "iceandfire:dread_thrall", "minecraft:giant", "minecraft:slime", "minecraft:wither", "minecraft:zombie", "iceandfire:dread_scuttler", "minecraft:warden", "minecraft:vex", "mca:grim_reaper", "mca:female_zombie_villager", "minecraft:guardian", "minecraft:hoglin", "minecraft:zombie_villager", "iceandfire:dread_knight", "minecraft:phantom", "minecraft:creeper", "minecraft:magma_cube", "iceandfire:ghost", "mca:male_zombie_villager", "mutantmonsters:mutant_creeper", "mutantmonsters:endersoul_clone", "minecraft:vindicator", "minecraft:ghast"]
+

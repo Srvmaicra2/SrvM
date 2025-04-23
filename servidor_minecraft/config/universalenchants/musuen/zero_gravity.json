@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:musuen_arrow_shooter"
+  ],
+  "incompatible": [
+    "musuen:skyhook"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:musuen_chargeable"
+  ],
+  "incompatible": [
+    "musuen:evolving",
+    "musuen:laceration",
+    "minecraft:power",
+    "musuen:skewering",
+    "musuen:berserker",
+    "minecraft:bane_of_arthropods",
+    "minecraft:sharpness",
+    "minecraft:smite",
+    "minecraft:impaling"
+  ]
+}

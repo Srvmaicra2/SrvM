@@ -2449,3 +2449,17 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for lengt
 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
 	... 25 more
+[04:23:47] [Server thread/INFO]: Hades[/127.254.241.65:39893] logged in with entity id 22207 at (128218.34048297063, 47.025174285638904, 123668.46950435426)
+[04:23:47] [Server thread/INFO]: Loading config from file...
+[04:23:47] [Server thread/INFO]: Hades joined the game
+[04:23:48] [Netty Epoll Server IO #6/INFO]: [ShulkerBoxTooltip] Hades: protocol version: 2.0
+[04:23:51] [Server thread/INFO]: Player Hades joined with a matching carpet client
+[04:26:00] [Server thread/INFO]: [Nacho_002: Teleported Nacho_002 to Hades]
+[04:26:27] [Server thread/INFO]: Nacho_002 was slain by Hades
+[04:26:27] [Server thread/INFO]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.fox_23.04.2025-04.26.27.dat
+[04:26:34] [Server thread/INFO]: [Nacho_002: Teleported Nacho_002 to Hades]
+[04:26:41] [Server thread/INFO]: Nacho_002 was slain by Hades
+[04:26:41] [Server thread/INFO]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.fox_23.04.2025-04.26.41.dat
+[04:27:32] [Server thread/INFO]: [Nacho_002: Made Hades a server operator]
+[04:27:35] [Server thread/INFO]: [Hades: Set own game mode to Creative Mode]
+[04:27:36] [Server thread/INFO]: [Hades: Set own game mode to Survival Mode]

@@ -1742,3 +1742,6 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmers
 [03:21:24] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
 [03:21:24] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 7 providers for mod shulkerboxtooltip
 [03:21:31] [Server thread/INFO]: Player Nacho_002 joined with a matching carpet client
+[03:34:29] [Server thread/INFO]: Nacho_002 has made the advancement [A Link to the Best Armor]
+[03:38:24] [Server thread/INFO]: Nacho_002 has completed the challenge [Great View From Up Here]
+[03:38:58] [Server thread/INFO]: Nacho_002 has made the advancement [The Imperial March]

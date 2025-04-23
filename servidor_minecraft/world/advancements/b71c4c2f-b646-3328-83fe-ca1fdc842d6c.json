@@ -4459,6 +4459,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/snow_smithing": {
+    "criteria": {
+      "has_snow": "2025-04-23 04:04:45 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/emerald_smithing": {
     "criteria": {
       "has_emerald": "2025-04-23 03:43:17 +0000"
@@ -4480,6 +4486,12 @@
   "create:recipes/building_blocks/polished_cut_calcite_slab_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2025-04-23 03:25:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-04-23 04:08:07 +0000"
     },
     "done": true
   },

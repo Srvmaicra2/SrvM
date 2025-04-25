@@ -2988,3 +2988,24 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for lengt
 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
 	... 25 more
+[16:00:11] [Server thread/INFO]: Nacho_002 lost connection: Disconnected
+[16:00:11] [Server thread/INFO]: Nacho_002 left the game
+[16:00:24] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:00:24] [Server thread/INFO]: OS[20~/stop<--[HERE]
+[16:00:46] [Server thread/INFO]: Stopping the server
+[16:00:46] [Server thread/INFO]: Stopping server
+[16:00:46] [Server thread/INFO]: Saving players
+[16:00:46] [Server thread/INFO]: Saving worlds
+[16:00:46] [Physics thread/INFO]: [STDOUT]: Running deletePhysicsResources
+[16:00:46] [Physics thread/INFO]: Deleting VSPhysicsPipelineStage resources!
+[16:00:46] [Physics thread/WARN]: Physics pipeline ending
+[16:00:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:00:46] [DefaultDispatcher-worker-3/INFO]: VSPhysicsPipelineStage is fully deleted!
+[16:00:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/iceandfire:dread_land
+[16:00:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:00:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:00:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:00:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (dread_land): All chunks are saved
+[16:00:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:00:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:00:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

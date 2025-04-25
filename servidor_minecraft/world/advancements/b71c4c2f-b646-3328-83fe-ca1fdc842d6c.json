@@ -4963,5 +4963,23 @@
     },
     "done": true
   },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2025-04-25 14:57:41 +0000"
+    },
+    "done": true
+  },
+  "upgraded-hoppers:recipes/redstone/iron_hopper": {
+    "criteria": {
+      "has_hopper": "2025-04-25 15:00:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-04-25 14:59:11 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

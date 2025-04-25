@@ -43,6 +43,7 @@
       "minecraft:ocean": "2025-04-20 02:55:43 +0000",
       "minecraft:jungle": "2025-04-20 20:35:20 +0000",
       "minecraft:snowy_beach": "2025-04-23 04:54:24 +0000",
+      "minecraft:flower_forest": "2025-04-25 03:38:48 +0000",
       "minecraft:old_growth_birch_forest": "2025-04-20 02:41:07 +0000",
       "minecraft:deep_dark": "2025-04-20 01:42:22 +0000",
       "minecraft:meadow": "2025-04-20 02:51:09 +0000",
@@ -2057,6 +2058,7 @@
       "minecraft:magma_cube": "2025-04-21 01:21:32 +0000",
       "minecraft:spider": "2025-04-20 04:10:46 +0000",
       "minecraft:creeper": "2025-04-20 04:09:59 +0000",
+      "minecraft:wither": "2025-04-25 03:22:02 +0000",
       "minecraft:phantom": "2025-04-20 21:06:41 +0000",
       "minecraft:zombified_piglin": "2025-04-20 22:31:00 +0000",
       "minecraft:witch": "2025-04-20 20:47:54 +0000",
@@ -3681,63 +3683,57 @@
     },
     "done": true
   },
-  "iceandfire:recipes/tools/dragonsteel_fire_shovel": {
-    "criteria": {
-      "has_item": "2025-04-25 01:30:36 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/misc/ash_to_charcoal": {
-    "criteria": {
-      "has_item": "2025-04-25 01:29:16 +0000"
-    },
-    "done": true
-  },
   "dungeons_arise:find_illager_corsair_or_illager_galley": {
     "criteria": {
       "location0": "2025-04-25 01:05:03 +0000"
     },
     "done": true
   },
-  "iceandfire:recipes/combat/dragonsteel_fire_helmet": {
+  "iceandfire:iceandfire/kill_sea_serpent": {
     "criteria": {
-      "has_item": "2025-04-25 01:30:36 +0000"
+      "killed_fire_dragon": "2025-04-25 01:06:17 +0000"
     },
     "done": true
   },
-  "create:recipes/building_blocks/polished_cut_andesite_stairs_from_stone_types_andesite_stonecutting": {
+  "iceandfire:recipes/combat/tide_green_leggings": {
     "criteria": {
-      "has_stone_types_andesite": "2025-04-25 01:06:35 +0000"
+      "has_item": "2025-04-25 01:06:18 +0000"
     },
     "done": true
   },
-  "iceandfire:recipes/combat/dragonsteel_fire_boots": {
+  "iceandfire:recipes/combat/tide_green_boots": {
     "criteria": {
-      "has_item": "2025-04-25 01:30:36 +0000"
+      "has_item": "2025-04-25 01:06:18 +0000"
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_andesite_slab_from_stone_types_andesite_stonecutting": {
+  "iceandfire:recipes/combat/tide_green_chestplate": {
     "criteria": {
-      "has_stone_types_andesite": "2025-04-25 01:06:35 +0000"
+      "has_item": "2025-04-25 01:06:18 +0000"
     },
     "done": true
   },
-  "create:recipes/building_blocks/small_andesite_brick_slab_from_stone_types_andesite_stonecutting": {
+  "iceandfire:recipes/building_blocks/sea_serpent_scales_green_to_sea_serpent_scale_block_green": {
     "criteria": {
-      "has_stone_types_andesite": "2025-04-25 01:06:35 +0000"
+      "has_sea_serpent_scales_green": "2025-04-25 01:06:18 +0000"
     },
     "done": true
   },
-  "iceandfire:iceandfire/dragonsteel": {
+  "iceandfire:recipes/combat/tide_green_helmet": {
     "criteria": {
-      "steel": "2025-04-25 01:30:36 +0000"
+      "has_item": "2025-04-25 01:06:18 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/andesite_stairs": {
+  "iceandfire:recipes/combat/tide_trident": {
     "criteria": {
-      "has_andesite": "2025-04-25 01:06:35 +0000"
+      "has_item": "2025-04-25 01:06:19 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/sea_serpent_arrow": {
+    "criteria": {
+      "has_item": "2025-04-25 01:06:19 +0000"
     },
     "done": true
   },
@@ -3753,27 +3749,87 @@
     },
     "done": true
   },
-  "iceandfire:recipes/combat/dragonsteel_fire_leggings": {
-    "criteria": {
-      "has_item": "2025-04-25 01:30:36 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/tide_green_leggings": {
-    "criteria": {
-      "has_item": "2025-04-25 01:06:18 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/building_blocks/dragonsteel_fire_ingot_to_dragonsteel_fire_block": {
-    "criteria": {
-      "has_dragonsteel_fire_ingot": "2025-04-25 01:30:36 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/sandstone_stairs": {
     "criteria": {
       "has_sandstone": "2025-04-25 01:06:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-04-25 01:06:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-04-25 01:06:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-04-25 01:06:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-04-25 01:06:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2025-04-25 01:06:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-04-25 01:06:34 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-04-25 01:06:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-04-25 01:06:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2025-04-25 01:06:34 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_andesite_stairs_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2025-04-25 01:06:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_andesite_slab_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2025-04-25 01:06:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_andesite_brick_slab_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2025-04-25 01:06:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2025-04-25 01:06:35 +0000"
     },
     "done": true
   },
@@ -3795,45 +3851,9 @@
     },
     "done": true
   },
-  "iceandfire:iceandfire/kill_sea_serpent": {
-    "criteria": {
-      "killed_fire_dragon": "2025-04-25 01:06:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2025-04-25 01:06:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2025-04-25 01:06:34 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-04-25 01:06:35 +0000"
-    },
-    "done": true
-  },
-  "gobber2:gobber2_glob_end": {
-    "criteria": {
-      "gobber2_glob_end": "2025-04-25 01:14:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2025-04-25 01:06:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2025-04-25 01:06:34 +0000"
     },
     "done": true
   },
@@ -3855,12 +3875,6 @@
     },
     "done": true
   },
-  "iceandfire:recipes/tools/dragonsteel_fire_axe": {
-    "criteria": {
-      "has_item": "2025-04-25 01:30:36 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-04-25 01:06:35 +0000"
@@ -3876,24 +3890,6 @@
   "create:recipes/building_blocks/layered_andesite_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2025-04-25 01:06:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sandstone_slab": {
-    "criteria": {
-      "has_sandstone": "2025-04-25 01:06:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_sandstone": {
-    "criteria": {
-      "has_sandstone": "2025-04-25 01:06:34 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/sandstone": {
-    "criteria": {
-      "has_sandstone": "2025-04-25 01:06:34 +0000"
     },
     "done": true
   },
@@ -3921,39 +3917,9 @@
     },
     "done": true
   },
-  "iceandfire:recipes/tools/dragonsteel_fire_hoe": {
-    "criteria": {
-      "has_item": "2025-04-25 01:30:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2025-04-25 01:06:34 +0000"
-    },
-    "done": true
-  },
-  "gobber2:gobber2_rod_end": {
-    "criteria": {
-      "gobber2_rod_end": "2025-04-25 01:12:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
-    "criteria": {
-      "has_moss_block": "2025-04-25 01:16:12 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-04-25 01:06:35 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/tools/dragonsteel_fire_sword": {
-    "criteria": {
-      "has_item": "2025-04-25 01:30:36 +0000"
     },
     "done": true
   },
@@ -3972,12 +3938,6 @@
   "create:recipes/building_blocks/cut_andesite_brick_wall_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2025-04-25 01:06:35 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/tide_trident": {
-    "criteria": {
-      "has_item": "2025-04-25 01:06:19 +0000"
     },
     "done": true
   },
@@ -4011,36 +3971,6 @@
     },
     "done": true
   },
-  "iceandfire:recipes/tools/dragonsteel_fire_pickaxe": {
-    "criteria": {
-      "has_item": "2025-04-25 01:30:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/moss_carpet": {
-    "criteria": {
-      "has_moss_block": "2025-04-25 01:16:12 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/tide_green_boots": {
-    "criteria": {
-      "has_item": "2025-04-25 01:06:18 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/tide_green_chestplate": {
-    "criteria": {
-      "has_item": "2025-04-25 01:06:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/sandstone_wall": {
-    "criteria": {
-      "has_sandstone": "2025-04-25 01:06:34 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/andesite_wall": {
     "criteria": {
       "has_andesite": "2025-04-25 01:06:35 +0000"
@@ -4053,15 +3983,27 @@
     },
     "done": true
   },
-  "iceandfire:recipes/combat/sea_serpent_arrow": {
+  "gobber2:gobber2_rod_end": {
     "criteria": {
-      "has_item": "2025-04-25 01:06:19 +0000"
+      "gobber2_rod_end": "2025-04-25 01:12:07 +0000"
     },
     "done": true
   },
-  "iceandfire:recipes/building_blocks/sea_serpent_scales_green_to_sea_serpent_scale_block_green": {
+  "gobber2:gobber2_glob_end": {
     "criteria": {
-      "has_sea_serpent_scales_green": "2025-04-25 01:06:18 +0000"
+      "gobber2_glob_end": "2025-04-25 01:14:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-04-25 01:16:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-04-25 01:16:12 +0000"
     },
     "done": true
   },
@@ -4071,15 +4013,477 @@
     },
     "done": true
   },
-  "iceandfire:recipes/combat/tide_green_helmet": {
+  "iceandfire:recipes/misc/ash_to_charcoal": {
     "criteria": {
-      "has_item": "2025-04-25 01:06:18 +0000"
+      "has_item": "2025-04-25 01:29:16 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonsteel_fire_shovel": {
+    "criteria": {
+      "has_item": "2025-04-25 01:30:36 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/dragonsteel_fire_helmet": {
+    "criteria": {
+      "has_item": "2025-04-25 01:30:36 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/dragonsteel_fire_boots": {
+    "criteria": {
+      "has_item": "2025-04-25 01:30:36 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragonsteel": {
+    "criteria": {
+      "steel": "2025-04-25 01:30:36 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/dragonsteel_fire_leggings": {
+    "criteria": {
+      "has_item": "2025-04-25 01:30:36 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonsteel_fire_ingot_to_dragonsteel_fire_block": {
+    "criteria": {
+      "has_dragonsteel_fire_ingot": "2025-04-25 01:30:36 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonsteel_fire_axe": {
+    "criteria": {
+      "has_item": "2025-04-25 01:30:36 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonsteel_fire_hoe": {
+    "criteria": {
+      "has_item": "2025-04-25 01:30:36 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonsteel_fire_sword": {
+    "criteria": {
+      "has_item": "2025-04-25 01:30:36 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonsteel_fire_pickaxe": {
+    "criteria": {
+      "has_item": "2025-04-25 01:30:36 +0000"
     },
     "done": true
   },
   "iceandfire:recipes/combat/dragonsteel_fire_chestplate": {
     "criteria": {
       "has_item": "2025-04-25 01:30:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-04-25 03:38:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_slab_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2025-04-25 03:41:28 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonforge_ice_brick": {
+    "criteria": {
+      "has_item": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_waxed_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-04-25 03:38:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/staff_of_life": {
+    "criteria": {
+      "has_item": "2025-04-25 03:22:05 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonforge_fire_brick": {
+    "criteria": {
+      "has_item": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/blueprint": {
+    "criteria": {
+      "has_item": "2025-04-25 04:31:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "gobber2:gobber2_staff_sniper": {
+    "criteria": {
+      "gobber2_staff_sniper": "2025-04-25 03:22:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-04-25 03:20:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2025-04-25 03:41:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_stairs": {
+    "criteria": {
+      "has_mud_bricks": "2025-04-25 03:41:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab": {
+    "criteria": {
+      "has_cut_copper": "2025-04-25 03:42:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_exposed_cut_copper": "2025-04-25 03:41:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-04-25 03:38:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mud_brick_wall_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2025-04-25 03:41:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_bricks": {
+    "criteria": {
+      "has_packed_mud": "2025-04-25 03:41:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2025-04-25 03:41:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2025-04-25 03:21:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs": {
+    "criteria": {
+      "has_cut_copper": "2025-04-25 03:42:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_cut_copper_stonecutting": {
+    "criteria": {
+      "has_cut_copper": "2025-04-25 03:42:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-04-25 03:44:52 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/scoria": {
+    "criteria": {
+      "has_item": "2025-04-25 03:20:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-04-25 04:31:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_cut_copper_stonecutting": {
+    "criteria": {
+      "has_cut_copper": "2025-04-25 03:42:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonforge_lightning_brick": {
+    "criteria": {
+      "has_item": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/books": {
+    "criteria": {
+      "has_item": "2025-04-25 04:31:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2025-04-25 03:41:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_from_honeycomb": {
+    "criteria": {
+      "has_cut_copper": "2025-04-25 03:42:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mud_brick_wall": {
+    "criteria": {
+      "has_mud_bricks": "2025-04-25 03:41:28 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/schematic_and_quill": {
+    "criteria": {
+      "has_item": "2025-04-25 04:31:43 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/empty_schematic": {
+    "criteria": {
+      "has_item": "2025-04-25 04:31:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_stairs_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2025-04-25 03:41:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_exposed_cut_copper_stairs": {
+    "criteria": {
+      "has_waxed_exposed_cut_copper": "2025-04-25 03:41:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_stairs": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2025-04-25 03:42:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2025-04-25 03:42:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2025-04-25 03:42:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2025-04-25 03:22:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2025-04-25 03:41:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-04-25 04:08:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/sand_paper": {
+    "criteria": {
+      "has_item": "2025-04-25 04:31:43 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/red_sand_paper": {
+    "criteria": {
+      "has_item": "2025-04-25 04:31:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_slab": {
+    "criteria": {
+      "has_mud_bricks": "2025-04-25 03:41:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-04-25 03:38:59 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_mechanical_nest": {
+    "criteria": {
+      "location0": "2025-04-25 03:38:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_slab": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2025-04-25 03:42:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-04-25 04:08:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_exposed_cut_copper_stairs_from_waxed_exposed_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_exposed_cut_copper": "2025-04-25 03:41:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-04-25 03:20:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-04-25 04:31:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_exposed_cut_copper_slab": {
+    "criteria": {
+      "has_waxed_exposed_cut_copper": "2025-04-25 03:41:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2025-04-25 03:42:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-04-25 04:11:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2025-04-25 03:42:10 +0000"
     },
     "done": true
   },

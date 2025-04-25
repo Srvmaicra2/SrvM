@@ -4987,5 +4987,23 @@
     },
     "done": true
   },
+  "mutantmonsters:you_da_bomby": {
+    "criteria": {
+      "tamed_creeper_minion": "2025-04-25 17:57:32 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragonsteel_weapon": {
+    "criteria": {
+      "sword": "2025-04-25 17:38:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-04-25 17:57:32 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

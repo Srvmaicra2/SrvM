@@ -3572,18 +3572,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2025-04-23 04:44:30 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/chicken": {
-    "criteria": {
-      "has_feather": "2025-04-23 04:48:03 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/misc/cake": {
     "criteria": {
       "has_egg": "2025-04-23 04:39:55 +0000"
@@ -3596,21 +3584,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/arrow": {
+  "mca:recipes/misc/potions": {
     "criteria": {
-      "has_feather": "2025-04-23 04:48:03 +0000"
+      "has_item": "2025-04-23 04:39:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-04-23 04:44:30 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2025-04-23 04:46:31 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_fishing_hut": {
-    "criteria": {
-      "location0": "2025-04-23 04:54:10 +0000"
     },
     "done": true
   },
@@ -3626,9 +3614,57 @@
     },
     "done": true
   },
-  "mca:recipes/misc/potions": {
+  "travelersbackpack:recipes/misc/chicken": {
     "criteria": {
-      "has_item": "2025-04-23 04:39:55 +0000"
+      "has_feather": "2025-04-23 04:48:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2025-04-23 04:48:03 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_fishing_hut": {
+    "criteria": {
+      "location0": "2025-04-23 04:54:10 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_ice": {
+    "criteria": {
+      "has_item": "2025-04-25 00:46:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-04-25 00:46:30 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/snow": {
+    "criteria": {
+      "has_snowball": "2025-04-25 00:46:30 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_ice_spikes": {
+    "criteria": {
+      "has_item": "2025-04-25 00:46:22 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/silver_nugget_to_silver_ingot": {
+    "criteria": {
+      "has_silver_nugget": "2025-04-25 00:46:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-04-25 00:46:30 +0000"
     },
     "done": true
   },

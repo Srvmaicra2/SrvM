@@ -7171,3 +7171,29 @@ Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.world.en
 [03May2025 02:51:00.648] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [03May2025 02:51:00.653] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [03May2025 02:51:20.062] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[03May2025 02:52:01.344] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager VillagerEntityMCA['Ilijana'/19904, l='ServerLevel[world]', x=984.51, y=69.19, z=3954.06] died, message: 'Ilijana was slain by kokuchikito'
+[03May2025 02:52:01.346] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VillagerEntityMCA['Ilijana'/19904, l='ServerLevel[world]', x=984.51, y=69.19, z=3954.06] died: Ilijana was slain by kokuchikito
+[03May2025 02:52:10.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Set the time to 1000]
+[03May2025 02:52:14.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Set the time to 13000]
+[03May2025 02:52:28.760] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[03May2025 02:53:14.514] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[03May2025 02:53:45.892] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager VillagerEntityMCA['Rumen'/19870, l='ServerLevel[world]', x=1020.30, y=61.00, z=3980.30] died, message: 'Rumen was slain by kokuchikito'
+[03May2025 02:53:45.892] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VillagerEntityMCA['Rumen'/19870, l='ServerLevel[world]', x=1020.30, y=61.00, z=3980.30] died: Rumen was slain by kokuchikito
+[03May2025 02:54:34.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 was blown up by Creeper
+[03May2025 02:54:34.077] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.standard_03.05.2025-02.54.34.dat
+[03May2025 02:54:35.541] [Server thread/DEBUG] [tacz/SYNC_BASE_TIMESTAMP]: Update server base timestamp: 1746240875541
+[03May2025 02:55:54.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 was blown up by Creeper
+[03May2025 02:55:54.025] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.standard_03.05.2025-02.55.54.dat
+[03May2025 02:55:56.871] [Server thread/DEBUG] [tacz/SYNC_BASE_TIMESTAMP]: Update server base timestamp: 1746240956862
+[03May2025 02:56:00.653] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03May2025 02:56:00.658] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03May2025 03:01:00.650] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03May2025 03:01:00.656] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03May2025 03:01:03.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Set the time to 13000]
+[03May2025 03:01:06.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 was slain by Doppelganger Creeper
+[03May2025 03:01:06.775] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.standard_03.05.2025-03.01.06.dat
+[03May2025 03:01:08.396] [Server thread/DEBUG] [tacz/SYNC_BASE_TIMESTAMP]: Update server base timestamp: 1746241268394
+[03May2025 03:01:11.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Teleported Nacho_002 to kokuchikito]
+[03May2025 03:02:10.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 was boiled
+[03May2025 03:02:10.072] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.standard_03.05.2025-03.02.10.dat
+[03May2025 03:02:12.081] [Server thread/DEBUG] [tacz/SYNC_BASE_TIMESTAMP]: Update server base timestamp: 1746241332081

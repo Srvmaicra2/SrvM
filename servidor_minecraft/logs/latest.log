@@ -374,3 +374,9 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [03May2025 17:33:14.065] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
 [03May2025 17:41:35.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 was burnt to a crisp whilst fighting Doppelganger golem
 [03May2025 17:41:35.728] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.standard_03.05.2025-17.41.35.dat
+[03May2025 17:56:06.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Set own game mode to Spectator Mode]
+[03May2025 17:56:20.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Set own game mode to Survival Mode]
+[03May2025 17:57:10.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Set own game mode to Spectator Mode]
+[03May2025 17:57:38.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Set own game mode to Survival Mode]
+[03May2025 17:59:35.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Set own game mode to Spectator Mode]
+[03May2025 17:59:41.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Set own game mode to Survival Mode]

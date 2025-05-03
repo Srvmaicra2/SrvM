@@ -402,3 +402,113 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [03May2025 18:46:23.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito tried to swim in lava
 [03May2025 18:46:23.278] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for kokuchikito with unique ID travelersbackpack.standard_03.05.2025-18.46.23.dat
 [03May2025 18:46:41.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Teleported kokuchikito to Nacho_002]
+[03May2025 18:52:26.566] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.sounds.SoundEvent.m_215668_(float)" because the return value of "net.minecraft.core.Holder.m_203334_()" is null
+	Index: 9
+	Listeners:
+		0: HIGHEST
+		1: ASM: net.minecraftforge.common.ForgeInternalHandler@3bc6e705 builtinMobSpawnBlocker(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+		2: HIGH
+		3: ASM: net.minecraftforge.common.ForgeInternalHandler@3bc6e705 onEntityJoinWorld(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+		4: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+		5: NORMAL
+		6: ASM: class com.tacz.guns.event.SyncedEntityDataEvent onPlayerJoinWorld(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+		7: ASM: class com.tacz.guns.event.SyncBaseTimestamp onPlayerJoinWorld(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+		8: ASM: class com.tiviacz.travelersbackpack.handlers.NeoForgeEventHandler entityJoin(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+		9: ASM: class net.mcreator.doppelgangermod.procedures.DieinnetherProcedure onEntitySpawned(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+		10: ASM: class net.mcreator.doppelgangermod.procedures.Config2Procedure onEntitySpawned(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+		11: ASM: class forge.net.mca.forge.ForgeBusEvents OnEntityJoinWorldEvent(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+		12: ASM: class net.arphex.procedures.MaggotOnInitialEntitySpawnProcedure onEntitySpawned(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+		13: ASM: class net.arphex.procedures.EntitySpawnsProcedure onEntitySpawned(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+		14: ASM: class net.arphex.procedures.EntitySpawnProcedure onEntitySpawned(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+		15: ASM: class net.arphex.procedures.EntityJoinsWorldProcedure onEntityJoin(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+		16: ASM: class net.arphex.procedures.BloodWormOnInitialEntitySpawnProcedure onEntitySpawned(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+		17: ASM: journeymap.common.events.forge.ForgeServerEvents@5ab4b128 onEntityJoinWorldEvent(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+		18: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@6ef914a entityJoinWorld(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+		19: ASM: class nonamecrackers2.witherstormmod.common.event.InjectCustomGoalsEvents onEntityJoinWorld(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+		20: ASM: com.natamus.collective.forge.events.RegisterCollectiveForgeEvents@4b3773c7 onEntityJoinLevel(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.sounds.SoundEvent.m_215668_(float)" because the return value of "net.minecraft.core.Holder.m_203334_()" is null
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_262808_(ServerLevel.java:907)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.Level.m_214150_(Level.java:395)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.Level.m_6263_(Level.java:401)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.Level.m_5594_(Level.java:389)
+	at TRANSFORMER/doppelgangermod@7.0/net.mcreator.doppelgangermod.procedures.DieinnetherProcedure.execute(DieinnetherProcedure.java:46)
+	at TRANSFORMER/doppelgangermod@7.0/net.mcreator.doppelgangermod.procedures.DieinnetherProcedure.onEntitySpawned(DieinnetherProcedure.java:27)
+	at TRANSFORMER/doppelgangermod@7.0/net.mcreator.doppelgangermod.procedures.__DieinnetherProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:859)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:814)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[03May2025 18:52:26.593] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+net.minecraft.ReportedException: Exception ticking world
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:897) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.sounds.SoundEvent.m_215668_(float)" because the return value of "net.minecraft.core.Holder.m_203334_()" is null
+	at net.minecraft.server.level.ServerLevel.m_262808_(ServerLevel.java:907) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.minecraft.world.level.Level.m_214150_(Level.java:395) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.minecraft.world.level.Level.m_6263_(Level.java:401) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.minecraft.world.level.Level.m_5594_(Level.java:389) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.mcreator.doppelgangermod.procedures.DieinnetherProcedure.execute(DieinnetherProcedure.java:46) ~[Doppelganger_V7_forge_1.20.1.jar%23186!/:?]
+	at net.mcreator.doppelgangermod.procedures.DieinnetherProcedure.onEntitySpawned(DieinnetherProcedure.java:27) ~[Doppelganger_V7_forge_1.20.1.jar%23186!/:?]
+	at net.mcreator.doppelgangermod.procedures.__DieinnetherProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic) ~[Doppelganger_V7_forge_1.20.1.jar%23186!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:859) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+	... 5 more
+[03May2025 18:52:26.631] [Server thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 4efff4dc-43f9-40a3-8bae-f0b9ff080719
+[03May2025 18:52:26.631] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: /workspaces/SrvM/servidor_minecraft/./crash-reports/crash-2025-05-03_18.52.26-server.txt
+[03May2025 18:52:26.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[03May2025 18:52:26.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[03May2025 18:52:26.642] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nacho_002 lost connection: Server closed
+[03May2025 18:52:26.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 left the game
+[03May2025 18:52:26.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[03May2025 18:52:26.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03May2025 18:52:26.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/doppelgangermod:subworld
+[03May2025 18:52:26.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/arphex:the_crawling
+[03May2025 18:52:26.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03May2025 18:52:26.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03May2025 18:52:27.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/witherstormmod:bowels
+[03May2025 18:52:27.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03May2025 18:52:27.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (subworld): All chunks are saved
+[03May2025 18:52:27.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_crawling): All chunks are saved
+[03May2025 18:52:27.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03May2025 18:52:27.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03May2025 18:52:27.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (bowels): All chunks are saved
+[03May2025 18:52:27.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03May2025 18:52:27.866] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs

@@ -928,6 +928,7 @@
       "minecraft:creeper": "2025-05-03 02:39:20 +0000",
       "minecraft:witch": "2025-05-03 18:04:05 +0000",
       "minecraft:husk": "2025-05-03 01:19:31 +0000",
+      "minecraft:enderman": "2025-05-03 18:47:44 +0000",
       "minecraft:zombie": "2025-05-03 02:40:49 +0000"
     },
     "done": false
@@ -1292,6 +1293,12 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:warped_forest": "2025-05-03 18:46:09 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_leggings": "2025-05-03 17:33:31 +0000"
@@ -1313,6 +1320,12 @@
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2025-05-03 17:58:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-05-03 18:46:08 +0000"
     },
     "done": true
   },
@@ -1364,6 +1377,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/warped_hyphae": {
+    "criteria": {
+      "has_log": "2025-05-03 18:50:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
       "has_redstone": "2025-05-03 17:58:01 +0000"
@@ -1412,6 +1431,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-05-03 18:46:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2025-05-03 18:28:23 +0000"
@@ -1454,6 +1479,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2025-05-03 18:50:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_hay_block": "2025-05-03 17:06:48 +0000"
@@ -1481,6 +1512,12 @@
   "doppelgangermod:mutation": {
     "criteria": {
       "mutation_0": "2025-05-03 18:03:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2025-05-03 18:47:46 +0000"
     },
     "done": true
   },

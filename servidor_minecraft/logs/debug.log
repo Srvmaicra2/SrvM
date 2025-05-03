@@ -6027,3 +6027,10 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [03May2025 17:57:38.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Set own game mode to Survival Mode]
 [03May2025 17:59:35.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Set own game mode to Spectator Mode]
 [03May2025 17:59:41.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Set own game mode to Survival Mode]
+[03May2025 18:01:18.910] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03May2025 18:01:18.916] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03May2025 18:03:50.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 has completed the challenge [???]
+[03May2025 18:06:18.897] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03May2025 18:06:18.905] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03May2025 18:11:18.893] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03May2025 18:11:18.899] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

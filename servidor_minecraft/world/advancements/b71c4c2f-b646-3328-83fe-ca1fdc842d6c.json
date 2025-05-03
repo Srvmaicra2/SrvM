@@ -925,6 +925,7 @@
       "minecraft:skeleton": "2025-05-03 01:11:52 +0000",
       "minecraft:spider": "2025-05-03 02:40:45 +0000",
       "minecraft:creeper": "2025-05-03 02:39:20 +0000",
+      "minecraft:witch": "2025-05-03 18:04:05 +0000",
       "minecraft:husk": "2025-05-03 01:19:31 +0000",
       "minecraft:zombie": "2025-05-03 02:40:49 +0000"
     },
@@ -1290,6 +1291,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-05-03 17:58:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-05-03 17:58:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_blasting": {
     "criteria": {
       "has_golden_leggings": "2025-05-03 17:33:31 +0000"
@@ -1332,6 +1345,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-05-03 17:58:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2025-05-03 17:14:58 +0000"
@@ -1356,9 +1375,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-05-03 17:58:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/pumpkin_pie": {
     "criteria": {
       "has_pumpkin": "2025-05-03 17:50:47 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/redstone": {
+    "criteria": {
+      "has_redstone": "2025-05-03 17:58:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-05-03 17:58:01 +0000"
     },
     "done": true
   },
@@ -1374,6 +1411,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-05-03 17:58:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_hay_block": "2025-05-03 17:06:48 +0000"
@@ -1383,6 +1426,18 @@
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2025-05-03 17:41:55 +0000"
+    },
+    "done": true
+  },
+  "doppelgangermod:mutation": {
+    "criteria": {
+      "mutation_0": "2025-05-03 18:03:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-05-03 17:58:01 +0000"
     },
     "done": true
   },

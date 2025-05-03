@@ -389,3 +389,10 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [03May2025 18:18:08.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito joined the game
 [03May2025 18:19:23.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito was burnt to a crisp whilst fighting Blaze
 [03May2025 18:19:23.834] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for kokuchikito with unique ID travelersbackpack.standard_03.05.2025-18.19.23.dat
+[03May2025 18:23:26.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Teleported Nacho_002 to kokuchikito]
+[03May2025 18:29:48.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 has made the advancement [Who is Cutting Onions?]
+[03May2025 18:30:02.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 has made the advancement [Ice Bucket Challenge]
+[03May2025 18:41:24.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Teleported kokuchikito to Nacho_002]
+[03May2025 18:41:27.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 was shot by kokuchikito
+[03May2025 18:41:27.378] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.standard_03.05.2025-18.41.27.dat
+[03May2025 18:41:39.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Teleported Nacho_002 to kokuchikito]

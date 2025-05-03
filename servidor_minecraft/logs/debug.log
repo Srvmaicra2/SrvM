@@ -6239,3 +6239,20 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [03May2025 18:19:25.150] [Server thread/DEBUG] [tacz/SYNC_BASE_TIMESTAMP]: Update server base timestamp: 1746296365119
 [03May2025 18:21:18.936] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [03May2025 18:21:18.943] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03May2025 18:23:26.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Teleported Nacho_002 to kokuchikito]
+[03May2025 18:23:43.557] [Server thread/DEBUG] [mixin/]: Mixing accessors.item.AccessorCooldownInstance from bookshelf.common.mixins.json into net.minecraft.world.item.ItemCooldowns$CooldownInstance
+[03May2025 18:26:18.906] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03May2025 18:26:18.912] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03May2025 18:29:48.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 has made the advancement [Who is Cutting Onions?]
+[03May2025 18:30:02.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 has made the advancement [Ice Bucket Challenge]
+[03May2025 18:31:18.906] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03May2025 18:31:18.912] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03May2025 18:36:18.900] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03May2025 18:36:18.906] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03May2025 18:41:18.936] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03May2025 18:41:18.943] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03May2025 18:41:24.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Teleported kokuchikito to Nacho_002]
+[03May2025 18:41:27.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 was shot by kokuchikito
+[03May2025 18:41:27.378] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.standard_03.05.2025-18.41.27.dat
+[03May2025 18:41:29.050] [Server thread/DEBUG] [tacz/SYNC_BASE_TIMESTAMP]: Update server base timestamp: 1746297689050
+[03May2025 18:41:39.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Teleported Nacho_002 to kokuchikito]

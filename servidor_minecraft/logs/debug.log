@@ -5901,3 +5901,117 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [03May2025 17:06:42.540] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] 	Negate: false, Tag      : #waila:extra/item_blacklist
 [03May2025 17:06:42.540] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Finished in 0ms, id: 981645087
 [03May2025 17:06:42.774] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming com/tiviacz/travelersbackpack/inventory/upgrades/tanks/TanksUpgrade$2 (target of net/minecraftforge/items/IItemHandler)
+[03May2025 17:11:16.304] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03May2025 17:11:16.335] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03May2025 17:13:36.627] [Server thread/DEBUG] [mixin/]: Mixing MixinPiglinAi from curios.mixins.json into net.minecraft.world.entity.monster.piglin.PiglinAi
+[03May2025 17:13:36.628] [Server thread/DEBUG] [mixin/]: curios.mixins.json:MixinPiglinAi from mod curios->@Inject::curios$isWearingGold(Lnet/minecraft/world/entity/LivingEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[03May2025 17:13:36.628] [Server thread/DEBUG] [mixin/]: curios.mixins.json:MixinPiglinAi from mod curios->@Inject::curios$isWearingGold(Lnet/minecraft/world/entity/LivingEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[03May2025 17:14:06.518] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming com/tiviacz/travelersbackpack/inventory/menu/slot/TrashSlot (target of net/minecraft/world/inventory/Slot)
+[03May2025 17:14:06.518] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming com/tiviacz/travelersbackpack/inventory/menu/slot/FilterSlotItemHandler (target of net/minecraft/world/inventory/Slot)
+[03May2025 17:14:06.518] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming com/tiviacz/travelersbackpack/inventory/menu/slot/ResultSlotExt (target of net/minecraft/world/inventory/Slot)
+[03May2025 17:14:06.519] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming com/tiviacz/travelersbackpack/inventory/menu/slot/CraftingSlot (target of net/minecraft/world/inventory/Slot)
+[03May2025 17:14:06.520] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming com/tiviacz/travelersbackpack/inventory/menu/slot/UpgradeSlotItemHandler (target of net/minecraft/world/inventory/Slot)
+[03May2025 17:16:16.303] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03May2025 17:16:16.312] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03May2025 17:19:18.234] [Worker-Main-10/DEBUG] [mixin/]: Mixing gen.chunk_region.ChunkRegionMixin from lithium.mixins.json into net.minecraft.server.level.WorldGenRegion
+[03May2025 17:19:18.235] [Worker-Main-10/DEBUG] [mixin/]: lithium.mixins.json:gen.chunk_region.ChunkRegionMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[03May2025 17:19:18.237] [Worker-Main-10/DEBUG] [mixin/]: lithium.mixins.json:gen.chunk_region.ChunkRegionMixin from mod radium->@Inject::init(Lnet/minecraft/server/level/ServerLevel;Ljava/util/List;Lnet/minecraft/world/level/chunk/ChunkStatus;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03May2025 17:19:18.237] [Worker-Main-10/DEBUG] [mixin/]: lithium.mixins.json:gen.chunk_region.ChunkRegionMixin from mod radium->@Inject::init(Lnet/minecraft/server/level/ServerLevel;Ljava/util/List;Lnet/minecraft/world/level/chunk/ChunkStatus;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[03May2025 17:19:18.237] [Worker-Main-10/DEBUG] [mixin/]: lithium.mixins.json:gen.chunk_region.ChunkRegionMixin from mod radium->@Inject::init(Lnet/minecraft/server/level/ServerLevel;Ljava/util/List;Lnet/minecraft/world/level/chunk/ChunkStatus;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[03May2025 17:19:18.441] [Worker-Main-11/DEBUG] [mixin/]: Mixing IMixinJigsawPlacement from witherstormmod.mixins.json into net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement
+[03May2025 17:19:18.442] [Worker-Main-11/DEBUG] [mixin/]: Renaming @Invoker method invokeAddPieces(Lnet/minecraft/world/level/levelgen/RandomState;IZLnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/world/level/LevelHeightAccessor;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/Registry;Lnet/minecraft/world/level/levelgen/structure/PoolElementStructurePiece;Ljava/util/List;Lnet/minecraft/world/phys/shapes/VoxelShape;)V to invokeAddPieces$witherstormmod_$md$3794e3$0 in witherstormmod.mixins.json:IMixinJigsawPlacement from mod witherstormmod
+[03May2025 17:19:18.445] [Worker-Main-11/DEBUG] [mixin/]: Mixing IMixinStructurePiecesBuilder from witherstormmod.mixins.json into net.minecraft.world.level.levelgen.structure.pieces.StructurePiecesBuilder
+[03May2025 17:19:18.454] [Worker-Main-11/DEBUG] [mixin/]: Mixing JigsawPlacementPlacerMixin from waystones.mixins.json into net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement$Placer
+[03May2025 17:19:20.624] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nacho_002 moved too quickly! 8.745782422784032,-0.6709083839322858,5.447994681933778
+[03May2025 17:19:20.631] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2618ms or 52 ticks behind
+[03May2025 17:19:38.413] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of watching:logless_tree/oak/logless_tree3
+[03May2025 17:19:38.440] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of watching:logless_tree/birch/logless_tree1
+[03May2025 17:19:38.445] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of watching:logless_tree/birch/logless_tree2
+[03May2025 17:19:47.669] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming net/minecraftforge/items/wrapper/CombinedInvWrapper (target of net/minecraftforge/items/IItemHandler)
+[03May2025 17:19:47.670] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming net/minecraftforge/items/wrapper/RangedWrapper (target of net/minecraftforge/items/IItemHandler)
+[03May2025 17:19:47.671] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming net/minecraftforge/items/wrapper/PlayerArmorInvWrapper (target of net/minecraftforge/items/IItemHandler)
+[03May2025 17:19:47.671] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming net/minecraftforge/items/wrapper/PlayerOffhandInvWrapper (target of net/minecraftforge/items/IItemHandler)
+[03May2025 17:21:02.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 was boiled
+[03May2025 17:21:02.835] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.standard_03.05.2025-17.21.02.dat
+[03May2025 17:21:04.298] [Server thread/DEBUG] [tacz/SYNC_BASE_TIMESTAMP]: Update server base timestamp: 1746292864298
+[03May2025 17:21:18.900] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03May2025 17:21:18.906] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03May2025 17:22:10.979] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of waystones:village/common/waystone
+[03May2025 17:22:10.993] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of minecraft:village/plains/streets/straight_02
+[03May2025 17:22:11.549] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of watching:redstone_torch_trail/trail1
+[03May2025 17:22:11.828] [Worker-Main-32/DEBUG] [ModernFix/]: Using cached upgraded version of watching:logless_tree/spruce/logless_tree2
+[03May2025 17:22:56.521] [Server thread/DEBUG] [clumps/]: Loaded com.blamejared.clumps.platform.ForgeEventHandler@6da5c097 for service interface com.blamejared.clumps.platform.IEventHelper
+[03May2025 17:22:56.522] [Server thread/DEBUG] [clumps/]: Loaded com.blamejared.clumps.platform.ForgePlatformHelper@e89f967 for service interface com.blamejared.clumps.platform.IPlatformHelper
+[03May2025 17:24:41.839] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of watching:logless_tree/oak/logless_tree1
+[03May2025 17:24:57.397] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of watching:logless_tree/oak/logless_tree2
+[03May2025 17:24:57.420] [Worker-Main-11/DEBUG] [ModernFix/]: Using cached upgraded version of watching:sand_pyramid/ocean_pyramid
+[03May2025 17:25:15.292] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.292] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.293] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.293] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.293] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.293] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.293] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.294] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[03May2025 17:25:15.294] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.294] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.296] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.296] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.297] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.297] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.297] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.298] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.298] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.298] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.298] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.299] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[03May2025 17:25:15.299] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.302] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.302] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[03May2025 17:25:15.302] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.303] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[03May2025 17:25:15.303] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[03May2025 17:25:15.303] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.303] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.304] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.306] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.306] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.307] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.307] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.308] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.308] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.308] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:25:15.308] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[03May2025 17:26:15.266] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[03May2025 17:26:18.905] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03May2025 17:26:18.912] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03May2025 17:26:22.216] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[03May2025 17:26:48.315] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[03May2025 17:27:02.814] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[03May2025 17:27:40.840] [Worker-Main-11/DEBUG] [ModernFix/]: Using cached upgraded version of watching:leafless_grove/oak_birch/grove2
+[03May2025 17:27:40.847] [Worker-Main-11/DEBUG] [ModernFix/]: Using cached upgraded version of watching:leafless_grove/oak_birch/grove1
+[03May2025 17:27:49.049] [Worker-Main-12/DEBUG] [ModernFix/]: Using cached upgraded version of watching:redstone_torch_trail/trail2
+[03May2025 17:28:51.607] [Worker-Main-32/DEBUG] [ModernFix/]: Using cached upgraded version of watching:logless_tree/acacia/logless_tree3
+[03May2025 17:28:51.611] [Worker-Main-32/DEBUG] [ModernFix/]: Using cached upgraded version of watching:logless_tree/spruce/logless_tree3
+[03May2025 17:29:19.763] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[03May2025 17:29:44.764] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[03May2025 17:30:33.915] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[03May2025 17:30:39.444] [Worker-Main-11/DEBUG] [ModernFix/]: Using cached upgraded version of watching:logless_tree/acacia/logless_tree2
+[03May2025 17:30:39.456] [Worker-Main-10/DEBUG] [ModernFix/]: Using cached upgraded version of watching:logless_tree/spruce/logless_tree1
+[03May2025 17:31:18.901] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03May2025 17:31:18.907] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03May2025 17:32:31.672] [Worker-Main-32/DEBUG] [ModernFix/]: Using cached upgraded version of watching:logless_tree/acacia/logless_tree1
+[03May2025 17:33:11.464] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[03May2025 17:33:11.465] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[03May2025 17:33:14.065] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[03May2025 17:35:00.527] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming com/tiviacz/travelersbackpack/inventory/sorter/ContainerSorter$CustomWrapper (target of net/minecraftforge/items/IItemHandler)
+[03May2025 17:36:18.900] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03May2025 17:36:18.907] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03May2025 17:38:21.073] [Worker-Main-12/DEBUG] [ModernFix/]: Using cached upgraded version of watching:logless_tree/acacia/logless_tree4
+[03May2025 17:41:18.897] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03May2025 17:41:18.905] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03May2025 17:41:35.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 was burnt to a crisp whilst fighting Doppelganger golem
+[03May2025 17:41:35.728] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.standard_03.05.2025-17.41.35.dat
+[03May2025 17:41:37.612] [Server thread/DEBUG] [tacz/SYNC_BASE_TIMESTAMP]: Update server base timestamp: 1746294097612
+[03May2025 17:46:18.896] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03May2025 17:46:18.902] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

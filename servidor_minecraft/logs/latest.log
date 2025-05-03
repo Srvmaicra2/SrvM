@@ -377,3 +377,14 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [03May2025 02:20:43.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Teleported Nacho_002 to kokuchikito]
 [03May2025 02:21:06.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito was slain by Nacho_002
 [03May2025 02:21:06.884] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for kokuchikito with unique ID travelersbackpack.standard_03.05.2025-02.21.06.dat
+[03May2025 02:21:11.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Teleported Nacho_002 to kokuchikito]
+[03May2025 02:23:42.718] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kokuchikito was kicked for floating too long!
+[03May2025 02:23:42.769] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kokuchikito lost connection: Flying is not enabled on this server
+[03May2025 02:23:42.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito left the game
+[03May2025 02:27:49.627] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kokuchikito[/127.254.241.65:58035] logged in with entity id 13481 at (1035.297007469244, 64.24918707874468, 3954.0350621354587)
+[03May2025 02:27:49.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito joined the game
+[03May2025 02:28:27.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito has reached the goal [The Doppelganger]
+[03May2025 02:28:37.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 has made the advancement [Doppelganger Hunter]
+[03May2025 02:30:01.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito was shot by Nacho_002
+[03May2025 02:30:01.080] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for kokuchikito with unique ID travelersbackpack.standard_03.05.2025-02.30.01.dat
+[03May2025 02:30:07.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 has reached the goal [The Doppelganger]

@@ -985,6 +985,12 @@
     },
     "done": true
   },
+  "doppelgangermod:the_doppelganger": {
+    "criteria": {
+      "the_doppelganger_0": "2025-05-03 02:30:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2025-05-03 02:09:58 +0000"
@@ -1006,6 +1012,12 @@
   "travelersbackpack:recipes/decorations/white_sleeping_bag": {
     "criteria": {
       "has_white_wool": "2025-05-03 02:09:58 +0000"
+    },
+    "done": true
+  },
+  "doppelgangermod:doppelganger_hunter": {
+    "criteria": {
+      "doppelganger_hunter_0": "2025-05-03 02:28:37 +0000"
     },
     "done": true
   },

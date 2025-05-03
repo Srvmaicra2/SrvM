@@ -381,3 +381,11 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [03May2025 17:59:35.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Set own game mode to Spectator Mode]
 [03May2025 17:59:41.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Set own game mode to Survival Mode]
 [03May2025 18:03:50.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 has completed the challenge [???]
+[03May2025 18:14:08.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 drowned
+[03May2025 18:14:08.826] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.standard_03.05.2025-18.14.08.dat
+[03May2025 18:15:21.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 fell from a high place
+[03May2025 18:15:21.863] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.standard_03.05.2025-18.15.21.dat
+[03May2025 18:18:08.341] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kokuchikito[/127.254.241.65:53203] logged in with entity id 38246 at (159.30000001192093, 62.0, 579.3000000119209)
+[03May2025 18:18:08.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito joined the game
+[03May2025 18:19:23.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito was burnt to a crisp whilst fighting Blaze
+[03May2025 18:19:23.834] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for kokuchikito with unique ID travelersbackpack.standard_03.05.2025-18.19.23.dat

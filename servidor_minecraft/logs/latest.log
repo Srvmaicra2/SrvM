@@ -508,3 +508,45 @@ Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.world.en
 [03May2025 03:01:11.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Teleported Nacho_002 to kokuchikito]
 [03May2025 03:02:10.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 was boiled
 [03May2025 03:02:10.072] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.standard_03.05.2025-03.02.10.dat
+[03May2025 03:02:13.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito has completed the challenge [Hunted]
+[03May2025 03:02:16.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Teleported Nacho_002 to kokuchikito]
+[03May2025 03:02:43.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito was slain by Vindicator
+[03May2025 03:02:43.829] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for kokuchikito with unique ID travelersbackpack.standard_03.05.2025-03.02.43.dat
+[03May2025 03:03:02.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Spectator Mode]
+[03May2025 03:03:28.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Survival Mode]
+[03May2025 03:03:38.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Teleported Nacho_002 to kokuchikito]
+[03May2025 03:03:45.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito was slain by The Doppelganger
+[03May2025 03:03:45.371] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for kokuchikito with unique ID travelersbackpack.standard_03.05.2025-03.03.45.dat
+[03May2025 03:03:59.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 was shot by Skeleton
+[03May2025 03:03:59.277] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.standard_03.05.2025-03.03.59.dat
+[03May2025 03:04:05.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Spectator Mode]
+[03May2025 03:04:07.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Teleported Nacho_002 to kokuchikito]
+[03May2025 03:04:28.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 has made the advancement [Sweet Dreams]
+[03May2025 03:04:36.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Teleported Nacho_002 to kokuchikito]
+[03May2025 03:04:49.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Survival Mode]
+[03May2025 03:06:20.218] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nacho_002 lost connection: Disconnected
+[03May2025 03:06:20.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 left the game
+[03May2025 03:07:26.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito was slain by Spider
+[03May2025 03:07:26.326] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for kokuchikito with unique ID travelersbackpack.standard_03.05.2025-03.07.26.dat
+[03May2025 03:08:03.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Creative Mode]
+[03May2025 03:10:14.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Survival Mode]
+[03May2025 03:13:09.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Creative Mode]
+[03May2025 03:13:21.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Survival Mode]
+[03May2025 03:13:44.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Spectator Mode]
+[03May2025 03:15:19.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Creative Mode]
+[03May2025 03:16:03.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Spectator Mode]
+[03May2025 03:16:04.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Survival Mode]
+[03May2025 03:19:11.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Creative Mode]
+[03May2025 03:19:36.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Survival Mode]
+[03May2025 03:20:56.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Creative Mode]
+[03May2025 03:21:21.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Survival Mode]
+[03May2025 03:21:27.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito has made the advancement [We Need to Go Deeper]
+[03May2025 03:21:28.940] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2581ms or 51 ticks behind
+[03May2025 03:21:41.328] [Worker-Main-2/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/35213, l='ServerLevel[world]', x=-8.00, y=31.00, z=430.00] as it would cause deadlock
+[03May2025 03:21:47.543] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:fortress took 0 ms
+[03May2025 03:21:50.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Teleported kokuchikito to 80.500000, 93.000000, 560.500000]
+[03May2025 03:21:51.859] [Worker-Main-1/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/35240, l='ServerLevel[world]', x=-40.00, y=62.00, z=590.00] as it would cause deadlock
+[03May2025 03:22:08.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Creative Mode]
+[03May2025 03:22:09.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Spectator Mode]
+[03May2025 03:22:15.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kokuchikito: Set own game mode to Survival Mode]
+[03May2025 03:22:31.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito has made the advancement [A Terrible Fortress]

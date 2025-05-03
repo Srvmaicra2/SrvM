@@ -467,3 +467,26 @@ Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.world.en
 [03May2025 02:40:20.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito left the game
 [03May2025 02:40:52.827] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kokuchikito[/127.254.241.65:60993] logged in with entity id 18213 at (1129.699999988079, 64.0, 3594.226258417616)
 [03May2025 02:40:52.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito joined the game
+[03May2025 02:42:01.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 was slain by Doppelganger Creeper
+[03May2025 02:42:01.972] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.standard_03.05.2025-02.42.01.dat
+[03May2025 02:42:02.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito was slain by Doppelganger Creeper
+[03May2025 02:42:02.976] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for kokuchikito with unique ID travelersbackpack.standard_03.05.2025-02.42.02.dat
+[03May2025 02:42:21.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Teleported Nacho_002 to kokuchikito]
+[03May2025 02:44:15.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Teleported Nacho_002 to kokuchikito]
+[03May2025 02:44:44.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito was boiled
+[03May2025 02:44:44.729] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for kokuchikito with unique ID travelersbackpack.standard_03.05.2025-02.44.44.dat
+[03May2025 02:44:44.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 was boiled
+[03May2025 02:44:44.737] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.standard_03.05.2025-02.44.44.dat
+[03May2025 02:44:49.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Teleported Nacho_002 to kokuchikito]
+[03May2025 02:45:05.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 was slain by Doppelganger golem
+[03May2025 02:45:05.378] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.standard_03.05.2025-02.45.05.dat
+[03May2025 02:45:20.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Nacho_002: Teleported Nacho_002 to kokuchikito]
+[03May2025 02:45:40.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nacho_002 was slain by Doppelganger golem
+[03May2025 02:45:40.572] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Nacho_002 with unique ID travelersbackpack.standard_03.05.2025-02.45.40.dat
+[03May2025 02:48:40.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kokuchikito drowned
+[03May2025 02:48:40.527] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for kokuchikito with unique ID travelersbackpack.standard_03.05.2025-02.48.40.dat
+[03May2025 02:49:54.086] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nacho_002 moved too quickly! 6.120712719371795,-1.1767592750642422,-8.215482193730622
+[03May2025 02:49:55.565] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2655ms or 53 ticks behind
+[03May2025 02:50:22.362] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[03May2025 02:50:26.413] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[03May2025 02:51:20.062] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
